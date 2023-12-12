@@ -1,6 +1,16 @@
-## 8821cu ( 8821cu.ko ) :rocket:
+## 8821cu (8821cu.ko) :rocket:
 
-## Linux Driver for USB WiFi Adapters that are based on the RTL8811CU, RTL8821CU and RTL8731AU Chipsets
+```
+  Linux Driver for USB WiFi Adapters that are based on    
+  the RTL8811CU, RTL8821CU and RTL8731AU Chipsets.
+```
+
+```
+  Host machine: Ubuntu 20.04.3 LTS    
+  Linux 5.15.0-91-generic x86_64    
+  gcc (Ubuntu) 11.4.0    
+  GNU ld (GNU Binutils for Ubuntu) 2.38
+```
 
 - v5.12.0 (Realtek) (20210118) plus updates from the Linux community
 
@@ -58,23 +68,16 @@ need to added or you can get that information, please provide it so that
 the Installation Steps can be improved.
 
 - Arch Linux (kernels 5.4 and 5.11)
-
 - Debian 11 (kernels 5.10 and 5.15)
-
 - Fedora (kernel 5.11)
-
 - Kali Linux (kernel 5.10)
-
 - Manjaro 21.1 (kernel 5.13)
-
 - openSUSE Tumbleweed (rolling) (kernel 5.15)
-
 - Raspberry Pi OS (2022-09-22) (ARM 32 bit and 64 bit) (kernel 5.15)
-
 - Raspberry Pi Desktop (2022-07-01) (x86 32 bit) (kernel 5.10)
-
 - Ubuntu 22.04 (kernel 5.15)
-
+- Ubuntu 22.04 (kernel 5.15)
+- Ubuntu 20.04.3 LTS Linux 5.15.0-91-generic x86_64
 - Void Linux (kernel 5.18)
 
 ### Download Locations for Tested Linux Distributions
@@ -96,13 +99,14 @@ the Installation Steps can be improved.
 
 ### Compatible Devices
 
-Warning: Adapters listed here are not recommended for purchase as I do
-not recommend Linux users buy Realtek based USB WiFi adapters due to the
-lack of mac80211 technology drivers that are supported in-kernel as
-called for by Linux Wireless Standards. This repo is supported for the
-benefit of Linux users who already have adapters based on the supported
-chipsets. If you are looking for information about what adapter to buy,
-click [here](https://github.com/morrownr/USB-WiFi) for information about
+Warning: 
+Adapters listed here are not recommended for purchase as I do    
+not recommend Linux users buy Realtek based USB WiFi adapters due to the   
+lack of mac80211 technology drivers that are supported in-kernel as   
+called for by Linux Wireless Standards. This repo is supported for the   
+benefit of Linux users who already have adapters based on the supported   
+chipsets. If you are looking for information about what adapter to buy,   
+click [here](https://github.com/morrownr/USB-WiFi) for information about   
 and links to recommended adapters.
 
 * Cudy WU700
@@ -340,9 +344,9 @@ Raspberry Pi hardware
 Raspberry Pi hardware
 
 ```
-       * Raspberry Pi OS (64 bit)
-       * Kali Linux RPI ARM64
-       * Ubuntu for Raspberry Pi
+  * Raspberry Pi OS (64 bit)
+  * Kali Linux RPI ARM64
+  * Ubuntu for Raspberry Pi
 ```
 
 ```

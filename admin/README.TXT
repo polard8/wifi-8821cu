@@ -13,6 +13,11 @@ sudo insmod 8821cu.ko
 ------------------------------
 Tested on:
 
+    Host machine: Ubuntu 20.04.3 LTS
+    Linux 5.15.0-91-generic x86_64
+    gcc (Ubuntu) 11.4.0 
+    GNU ld (GNU Binutils for Ubuntu) 2.38
+
     Host machine: Ubuntu 20.04.5 LTS
     Linux 5.4.0-146-generic x86_64
     gcc (Ubuntu) 9.4.0 
